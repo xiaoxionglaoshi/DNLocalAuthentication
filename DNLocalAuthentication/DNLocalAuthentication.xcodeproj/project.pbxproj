@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		515F5F601DAE060300D1706E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515F5F5F1DAE060300D1706E /* AppDelegate.swift */; };
+		515F5F621DAE060300D1706E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515F5F611DAE060300D1706E /* ViewController.swift */; };
+		515F5F651DAE060300D1706E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515F5F631DAE060300D1706E /* Main.storyboard */; };
+		515F5F671DAE060300D1706E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515F5F661DAE060300D1706E /* Assets.xcassets */; };
+		515F5F6A1DAE060300D1706E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515F5F681DAE060300D1706E /* LaunchScreen.storyboard */; };
+		515F5F731DAE063700D1706E /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515F5F721DAE063700D1706E /* LocalAuthentication.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		515F5F5C1DAE060300D1706E /* DNLocalAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNLocalAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		515F5F5F1DAE060300D1706E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		515F5F611DAE060300D1706E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		515F5F641DAE060300D1706E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		515F5F661DAE060300D1706E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		515F5F691DAE060300D1706E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		515F5F6B1DAE060300D1706E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		515F5F721DAE063700D1706E /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		515F5F591DAE060300D1706E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515F5F731DAE063700D1706E /* LocalAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		515F5F531DAE060300D1706E = {
+			isa = PBXGroup;
+			children = (
+				515F5F5E1DAE060300D1706E /* DNLocalAuthentication */,
+				515F5F5D1DAE060300D1706E /* Products */,
+				515F5F711DAE063700D1706E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		515F5F5D1DAE060300D1706E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				515F5F5C1DAE060300D1706E /* DNLocalAuthentication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		515F5F5E1DAE060300D1706E /* DNLocalAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				515F5F5F1DAE060300D1706E /* AppDelegate.swift */,
+				515F5F611DAE060300D1706E /* ViewController.swift */,
+				515F5F631DAE060300D1706E /* Main.storyboard */,
+				515F5F661DAE060300D1706E /* Assets.xcassets */,
+				515F5F681DAE060300D1706E /* LaunchScreen.storyboard */,
+				515F5F6B1DAE060300D1706E /* Info.plist */,
+			);
+			path = DNLocalAuthentication;
+			sourceTree = "<group>";
+		};
+		515F5F711DAE063700D1706E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				515F5F721DAE063700D1706E /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		515F5F5B1DAE060300D1706E /* DNLocalAuthentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515F5F6E1DAE060300D1706E /* Build configuration list for PBXNativeTarget "DNLocalAuthentication" */;
+			buildPhases = (
+				515F5F581DAE060300D1706E /* Sources */,
+				515F5F591DAE060300D1706E /* Frameworks */,
+				515F5F5A1DAE060300D1706E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DNLocalAuthentication;
+			productName = DNLocalAuthentication;
+			productReference = 515F5F5C1DAE060300D1706E /* DNLocalAuthentication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		515F5F541DAE060300D1706E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = wjn;
+				TargetAttributes = {
+					515F5F5B1DAE060300D1706E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AN3ACWJAM4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 515F5F571DAE060300D1706E /* Build configuration list for PBXProject "DNLocalAuthentication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 515F5F531DAE060300D1706E;
+			productRefGroup = 515F5F5D1DAE060300D1706E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				515F5F5B1DAE060300D1706E /* DNLocalAuthentication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		515F5F5A1DAE060300D1706E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515F5F6A1DAE060300D1706E /* LaunchScreen.storyboard in Resources */,
+				515F5F671DAE060300D1706E /* Assets.xcassets in Resources */,
+				515F5F651DAE060300D1706E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		515F5F581DAE060300D1706E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515F5F621DAE060300D1706E /* ViewController.swift in Sources */,
+				515F5F601DAE060300D1706E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		515F5F631DAE060300D1706E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515F5F641DAE060300D1706E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		515F5F681DAE060300D1706E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515F5F691DAE060300D1706E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		515F5F6C1DAE060300D1706E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		515F5F6D1DAE060300D1706E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		515F5F6F1DAE060300D1706E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AN3ACWJAM4;
+				INFOPLIST_FILE = DNLocalAuthentication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNLocalAuthentication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		515F5F701DAE060300D1706E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AN3ACWJAM4;
+				INFOPLIST_FILE = DNLocalAuthentication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNLocalAuthentication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		515F5F571DAE060300D1706E /* Build configuration list for PBXProject "DNLocalAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515F5F6C1DAE060300D1706E /* Debug */,
+				515F5F6D1DAE060300D1706E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		515F5F6E1DAE060300D1706E /* Build configuration list for PBXNativeTarget "DNLocalAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515F5F6F1DAE060300D1706E /* Debug */,
+				515F5F701DAE060300D1706E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 515F5F541DAE060300D1706E /* Project object */;
+}
