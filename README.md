@@ -74,3 +74,24 @@ func errorMessageForError(aerror: Error?) -> String {
     }
 ```
 
+### 4.当TouchID被锁
+> 5次验证失败之后TouchID会被锁死,无法再调起指纹识别,这时候我们需要调起系统密码输入界面输入密码来重现验证指纹功能
+
+```
+@available(iOS 9.0, *)
+    func alertSystemPasswordView() {
+        // 本地认证上下文联系对象
+        let context = LAContext()
+        var error: NSError?
+        if context.canEvaluatePolicy(.deviceOwnerAuthentication, error: &error) {
+            context.evaluatePolicy(.deviceOwnerAuthentication, localizedReason: "通过Home键验证已有手机指纹", reply: { (success, error) in
+                if success {
+                    print("重设成功")
+                } else {
+                    print("重设失败")
+                }
+            })
+        }
+    }
+
+```
